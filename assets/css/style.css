@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 50rem;
+    height: 25rem;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 100%);
+}
+
+#box>h1 {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 54px;
+    display: block;
+    color: darkorange;
+    text-shadow: 
+        2px 2px 0px rgb(19, 19, 19),
+        -2px 2px 0px rgb(19, 19, 19),
+        2px -2px 0px rgb(19, 19, 19),
+        -2px -2px 0px rgb(19, 19, 19);
+}
+
+#logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#data {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#dataOnchain, #dataMempool {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+#onchain, #mempool {
+    padding-left: 0.25rem;
+    color: goldenrod;
+}

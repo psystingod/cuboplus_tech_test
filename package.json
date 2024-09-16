@@ -1,0 +1,17 @@
+{
+  "name": "cuboplus_tech_test",
+  "version": "1.0.0",
+  "description": "Tech Test from Cubo+",
+  "main": "tech_test.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./tech_test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Herrera",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
